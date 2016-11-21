@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Personal Porfolio - Jeff Yang</title>
+		<link rel="stylesheet" href="styles.css?v=1.0">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="https://use.fontawesome.com/9faf96de08.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body data-spy="scroll" data-target=".navbar">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Project name</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#about">About</a></li>
+						<li><a href="#portfolio">Porfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h1 id="about" class="section">About</h1>
+				<p>I'm a self-taught web developer with extensive experience in software testing and quality assurance.</p>
+				<h3>Competencies</h3>
+				<p><em>Languages and Frameworks:</em></p>
+				<p>Javascript, HTML5, CSS3, jQuery, Bootstrap3</p>
+				<p><em>Tools and Expertise:</em></p>
+				<p>Git, Responsive Web Design</p>
+				<br>
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h1 id="portfolio" class="section">Portfolio</h1>
+				<p>Below are some projects I've worked on.</p>
+				<hr class="project-divider">
+				<div class="row project">
+					<div class="col-md-4">
+						<div class="imageContainer">
+							<a href="../../Random%20Quote%20Machine/quote.html"><img class="img-responsive center-block" src="../RandomQuoteMachine.png" alt="..."><h3 class="project-heading text-center">Random Quote Generator</h3></a>
+							<p class="project-text text-center">Generates a random quote using the <a href="http://forismatic.com/ru/api/">forismatic.com</a> API.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<a href="../../Weather/weather.html"><img class="img-responsive center-block" src="../Weather.png" alt="..."><h3 class="project-heading text-center">Local Weather</h3></a>
+						<p class="project-text text-center">Gets the local weather using the Open Weather Map API.</p>
+					</div>
+					<div class="col-md-4">
+						<a href="../../Wikipedia%20Viewer/wikiviewer.html"><img class="img-responsive center-block" src="../WikipediaViewer.png" alt="...">
+						<h3 class="project-heading text-center">Wikipedia Viewer</h3></a>
+						<p class="project-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+				<div class="row project">
+					<div class="col-md-4">
+						<img class="img-responsive center-block" src="http://placehold.it/500x300" alt="...">
+						<h3 class="project-heading text-center">Placeholder 4</h3>
+						<p class="project-text text-center">Sed non enim at est lobortis tempus eget quis sem.</p>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive center-block" src="http://placehold.it/500x300" alt="...">
+						<h3 class="project-heading text-center">Placeholder 5</h3>
+						<p class="project-text text-center">Sed non enim at est lobortis tempus eget quis sem.</p>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive center-block" src="http://placehold.it/500x300" alt="...">
+						<h3 class="project-heading text-center">Placeholder 6</h3>
+						<p class="project-text text-center">Sed non enim at est lobortis tempus eget quis sem.</p>
+					</div>
+				</div>
+				<hr class="project-divider">
+			</div>
+			<div class="col-md-10 col-md-offset-1">
+				<h1 id="contact" class="section">Contact me</h1>
+				<!-- contact form -->
+				<p>Get in touch with me at any of the social links below.</p>
+				<div class="social">
+					<ul>
+						<li><a href="https://github.com/entomber" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/jeffrey-yang-a692b034" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+						<li><a href="https://www.freecodecamp.com/entomber" target="_blank"><img class="fcc" src="http://metakata.altervista.org/wordpress/wp-content/uploads/2015/08/freecodecamp_white.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
